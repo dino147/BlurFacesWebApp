@@ -1,1 +1,1 @@
-Blur Faces Web App
+Blur Faces Web App for PPC
