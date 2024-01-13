@@ -1,0 +1,42 @@
+<!doctype html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css') }}">
+    <script src="https://kit.fontawesome.com/324a01eb3c.js" crossorigin="anonymous"></script>
+    <title>Blurarea fetelor unei imagini</title>
+</head>
+<body>
+<h1 class="title1">Blurarea fetelor din imagini</h1>
+<div class="upload1">
+    <form method=post enctype=multipart/form-data>
+      <!--<input type=file name=file> -->
+      <label class="alege-fisier">
+            <input type="file" name="file"/>
+            <i class="fa-solid fa-folder-open"></i> Alege Fisier
+      </label>
+      <input type=submit value="Incarca">
+    </form>
+</div>
+
+<div id="images">
+    <img src="{{ uimage }}" class="image" id="uimage">
+    <img src="{{ bimage }}" class="image" id="rimage">
+</div>
+
+
+<script type="text/javascript">	
+
+    var im = "{{ uimage }}";
+
+    if (im == "")
+    {
+        document.getElementById("images").style.display = 'none';
+    }
+    else
+    {
+        document.getElementById("images").style.display = 'block';
+    }
+    
+
+</script>
+</body>

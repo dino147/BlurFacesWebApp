@@ -1,0 +1,75 @@
+h1 {
+    /*border: 2px #eee solid; */
+    color: green;
+    text-align: center;
+    padding: 10px;
+}
+
+body {
+    background-color: #90FFFF;
+}
+
+.title1 {
+	color: #002099;
+	text-align: center;
+	background-color: #41b6e6; 
+	/* #00fff3; */
+	padding: 25px; /* 25px */
+	border-radius: 1em;
+	opacity: 0.85;
+	margin-left: auto;
+ 	margin-right: auto;
+ 	min-width: 25%;
+	max-width: 50%
+}
+
+.upload1 {
+    text-align: center;
+}
+.image {
+    width: 40%; 
+    height: 600px;
+}
+#uimage {
+    padding-top: 50px;
+    padding-right: 6%;
+    padding-left: 6%;
+}
+#rimage {
+    padding-right: 6%;
+}
+
+input[type=file] {
+    display: none;
+}
+
+
+.alege-fisier {
+  background-color: #eebc35 !important; 
+  color: white;
+  /*border: 2px solid #ee9435;*/
+  padding: 14px 20px;
+  margin: 8px 10px;
+  border: none;
+  border-radius: 2em;
+}
+
+.alege-fisier  {
+	color: white !important; 
+	background-color: #ee9435 !important;
+}
+
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  /*border: 2px solid #ee9435;*/
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 2em;
+}
+
+input[type=submit]:hover {
+	background-color: #45a049;
+}
